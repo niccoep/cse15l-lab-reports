@@ -52,5 +52,5 @@ Once logged in you can type unix commands in the the command line.
 To optimize remote running I created a mac service that runs when I input a custom hotkey. To learn about this click [here](https://appleinsider.com/articles/18/03/14/how-to-create-keyboard-shortcuts-to-launch-apps-in-macos-using-automator). With this hotkey I can login by pressing F12 while in the terminal. It will automatically type 
 > ssh cs15lwi22aex@ieng6.ucsd.edu
 
-and the *enter* key. I can login with one key press.
+and the *enter* key. I can login with one key press :)
 ![Image](automate.png)
