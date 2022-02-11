@@ -1,6 +1,6 @@
 # Visual Studio Code (vsc) download and install
 vsc can be downloaded from the [vsc webpage](https://code.visualstudio.com/).
-![Image](vsc_download.png)
+![Image](md_images/vsc_download.png)
 Click the dropdown and choose os. Then click through the install stuff once you open the downloaded file.
 
 ***
@@ -15,7 +15,7 @@ For my student account it will be
 ```
 ssh cs15lwi22aex@ieng6.ucsd.edu
 ```
-![Image](ssh.png)
+![Image](md_images/ssh.png)
 
 It will then prompt you to input a password.
 
@@ -28,11 +28,11 @@ We will use the ssh-keygen command to make a public private key pair for ease of
 ssh-keygen
 ```
 
-![Image](ssh_keygen.png)
+![Image](md_images/ssh_keygen.png)
 At the first prompt hit enter and it will put the private key in a default location (the dir listed in the () ). It's asking me if I want to overwrite only because I have already run this comand.
 
 Relogin to the remote computer and use the command mkdir (make directory) to create a dot file called .ssh to store the public key.
-![Image](mkdir.png)
+![Image](md_images/mkdir.png)
 
 Now scp (secure copy) the public key. Remember to replace the account name with your own (cs15lwi22) and the local user name with your local user (joe)
 ```
@@ -59,7 +59,7 @@ cd
 pwd
 ```
 
-![Image](basic_commands.png)
+![Image](md_images/basic_commands.png)
 
 ***
 # Optimizing remote running
@@ -73,7 +73,7 @@ I can then ssh into the server and compile/run
 ```
 ssh cs15lwi22aex@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
-![Image](runRemote.png)
+![Image](md_images/runRemote.png)
 adding the commands in "" at the end of the ssh allows me to run the commands on the remote server. This is convenient as once we type the command once, we can use the up arrow key to bring back the command in the terminal. If I keep hiting the up arrow key it will pull up each command run in order. This reduces the number of keypresses to:
 
 1 arrow up then 1 enter to scp.
@@ -88,4 +88,4 @@ ssh cs15lwi22aex@ieng6.ucsd.edu
 ```
 
 and the **"enter"** key. I can login with one key press :)
-![Image](automate.png)
+![Image](md_images/automate.png)
