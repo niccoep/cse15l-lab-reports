@@ -1,6 +1,9 @@
+# Lab report 2
+***
+We first checked if the md file has a 
 The link to the commits is [here](https://github.com/niccoep/markdown-parse/commit/470feae778dfea41cb372677b6e3e39416a4fefa).
 ***
-![Image](md_images/commits.png)
+[Image](md_images/commits.png)
 I rewrote some of the logic to make it more concise.
 
 The first code change was checking for a ! at the index before the nextOpenBracket. This would make sure to not print images as images have a ```!``` before the first bracket.
